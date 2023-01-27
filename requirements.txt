@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+asyncpg
+ormar
+psycopg2-binary
+sqlalchemy
+alembic
+pytest
+httpx
+requests
