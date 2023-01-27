@@ -19,13 +19,11 @@ To retrieve statistics objects, make a GET request to the `/statistics/` endpoin
 ### Retrieving Statistics by Date Range
 To retrieve statistics objects within a specific date range, make a GET request to the `/statistics/[start_date]/[end_date]/` endpoint, where `start_date` and `end_date` are in the format of `YYYY-MM-DD`. The API will then return the statistics objects within the specified date range.
 
-#API Debug
+# API Debug
 For in-browser debug you can go to this url after starting the app:
 `http://localhost:8008/docs`
 
-#Tests
-
+# Tests
 To run tests run this commands in terminal:
-
 `docker-compose up -d --build`
 `docker-compose exec web pytest .`
