@@ -22,3 +22,8 @@ To retrieve statistics objects within a specific date range, make a GET request 
 #API Debug
 For in-browser debug you can go to this url after starting the app:
 `http://localhost:8008/docs`
+
+#Tests
+To run tests run this commands in terminal:
+`docker-compose up -d --build`
+`docker-compose exec web pytest .`
